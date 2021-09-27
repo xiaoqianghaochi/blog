@@ -107,4 +107,4 @@ theme: hexo-theme-Matery
 deploy:
   type: git
   repository: https://github.com/xiaoqianghaochi/xiaoqianghaochi.github.io.git
-  branch: master
+  branch: main
