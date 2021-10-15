@@ -42,7 +42,7 @@ markdown语法设计
 ### 列表
 ```
 使用符号：* 或 + 或 -
-无序列表使用*、+或-作为有序列表标记
+无序列表使用*、+或-作为列表标记
 ```
 
 ### 表格
@@ -66,7 +66,6 @@ markdown语法设计
 ```
 使用符号：4个空格 或 制表符 或 行内反引号[`] 或 3个反引号[```]
 4个空格 或 制表符 或 行内反引号[`] 或 3个反引号[```]
-
 ```
 
 
@@ -101,3 +100,20 @@ Markdown 允许段落内的强迫换行（插入换行符）。如果想要空�
 在段落中填写 [TOC] 以显示全文内容的目录结构，根据标题自动生成目录
 ```
 
+### 流程图
+```
+使用符号：```flow 和 &```
+语法示例：
+\`\`\`flow
+    st=>start: 开始
+    op=>operation: My Operation
+    cond=>condition: Yes or No?
+    e=>end
+    st->op->cond
+    cond(yes)->e
+    cond(no)->op
+&\`\`\`
+```
+
+
+参考：<https://www.runoob.com/markdown/md-advance.html>
